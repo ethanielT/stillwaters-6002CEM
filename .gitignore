@@ -12,6 +12,7 @@
 .swiftpm/
 migrate_working_dir/
 ./stillwaters-backend/.env
+.env*.local
 
 # IntelliJ related
 *.iml
