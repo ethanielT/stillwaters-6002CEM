@@ -40,7 +40,6 @@ class _ActivityLogScreenState extends State<ActivityLogScreen> {
         itemCount: logs.length,
         itemBuilder: (_, i) {
           final log = logs[i];
-          final fish = log['fish'];
           return ListTile(
             title: Text(
               log['cancelled'] == true
